@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Modal</title>
-    <link rel="stylesheet" href="./src/styles.css">
+    <link rel="stylesheet" href="src/styles.css">
 </head>
 <body>
     <h1>안녕하세요!</h1>
@@ -18,17 +18,6 @@
             </div>
         </div>
     </div>
-    <script>
-        const open = document.getElementById("open");
-        const close = document.getElementById("close");
-        const modal = document.querySelector(".modal_container");
-
-        open.addEventListener("click", function () {
-          modal.style.display = "flex";
-        });
-        close.addEventListener("click", function () {
-          modal.style.display = "none";
-        });
-    </script>
+    <script src="src/index.js"></script>
 </body>
 </html>
