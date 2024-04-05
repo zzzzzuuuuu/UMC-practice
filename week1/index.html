@@ -5,10 +5,20 @@
     <title>Counter</title>
 </head>
 <body>
-    <h1>0</h1>
+    <h2 id="number">0</h2>
     <div>
-        <button>+1</button>
-        <button>-1</button>
+        <button id="increase">+1</button>
+        <button id="decrease">-1</button>
     </div>
+
+    <script>
+        const number = document.getElementById("number");
+        const increase = document.getElementById("increase");
+        const decrease = document.getElementById("decrease");
+
+        console.log(number);
+        console.log(increase);
+        console.log(decrease);
+    </script>
 </body>
 </html>
